@@ -1,0 +1,201 @@
+body,html{
+    height:100%;
+    margin:0;
+}
+
+
+#potate_bg{
+
+    background-image: url("potatoBG.png");
+   height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items:center;
+     flex-direction: column;
+}
+
+#topbar{
+    margin-top:30px;
+    display:flex;
+    width:80%;
+    height:100px;
+    align-items:center;
+    margin-bottom:4%;
+
+
+}
+#left_panel{
+
+    margin-left:10px;
+    display: flex;
+    align-items:center;
+
+
+
+}
+
+#left_panel h4{
+    color: #ffffff;
+}
+#left_panel h6{
+    color: #ffffff;
+    margin-top:0;
+
+}
+#right_panel{
+  margin-left:auto;
+     display: flex;
+      align-items:center;
+
+}
+
+.gap{
+    width:30px;
+}
+
+.menu_item{
+}
+
+.menu_item h5{
+    padding:2px;
+    padding-right:10px;
+    padding-left:10px;
+    color: #ffffff;
+    font-weight: 400;
+
+    border: 1px solid;
+    border-radius: 30px;
+
+}
+
+.menu_item h5:hover{
+   border-color: #e7e7e7;
+    color: #e7e7e7;
+
+}
+
+#advertisment{
+
+
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#advertisment h1{
+    color:#ffffff;
+    font-weight: 400;
+
+}
+#advertisment h4{
+    color:#ffffff;
+    display:inline-block;
+      font-weight: 300;
+}
+#advertisment h6{
+    position:relative;
+    top:-10px;
+    color:#ffffff;
+    display:inline-block;
+
+      font-weight: 300;
+}
+
+#potato_bg1{
+    height:100%;
+     background-position: center;
+   background-image:url("potatoBG1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:40px;
+
+
+}
+
+
+#potato_bg1 h1{
+    color: #757575;
+    font-weight: 300;
+    font-size:28pt;
+}
+
+
+#potato_bg1 h3{
+    color: #757575;
+    font-weight: 300;
+    display:inline-block;
+    margin:5px;
+     margin-left:0;
+    margin-right:0;
+}
+
+#potato_bg1 h6{
+    color: #757575;
+    font-weight: 300;
+    position:relative;
+    display:inline-block;
+    top:-10px;
+    margin:5px;
+    margin-left:0;
+    margin-right:0;
+
+}
+#potato_bg1 h3.light{
+    color: #9a9a9a;
+}
+#potato_display_bar{
+    width:100%;
+    height:14%;
+    margin-top:2%;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divide{
+    height:1px;
+     background-color: #c6c6c6;
+
+
+}
+
+#potato_display_line1{
+    width:18%;
+
+
+}
+#potato_display_line2{
+    width:7%;
+
+
+}
+
+#potato_display_line3{
+    width:7%;
+
+
+}
+#potato_display_line4{
+    width:7%;
+
+
+}
+#potato_display_line5{
+    width:7%;
+
+
+}
+#potato_display_line6{
+    width:18%;
+
+
+}
+.potato_frame{
+    width:6%;
+}
