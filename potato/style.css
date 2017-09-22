@@ -199,3 +199,46 @@ body,html{
 .potato_frame{
     width:6%;
 }
+
+
+#potato_bg2{
+    background-image:url("potatoBG2.png");
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.inline_container h1,h5{
+    display:inline-block;
+}
+#potato_bg2 h1,h5{
+    color: #ffffff;
+    font-weight: 300;
+
+}
+#potato_bg2 h1{
+    font-size:30pt;
+}
+
+.inline_container h5{
+    position:relative;
+    top:-20px;
+    margin-left: -5px;
+    margin-right:5px;
+        font-weight: 400;
+
+}
+#potato_bg2 h3{
+     color: #ffffff;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-bottom: 0;
+}
+.marginTop0{
+    margin-top:0;
+}
